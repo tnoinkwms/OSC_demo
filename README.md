@@ -1,7 +1,7 @@
 # OSC_demo
 初年次ゼミで使用したpython-oscのデモコード
 
-## RGB
+# RGB
 ### python requirements
 ```sh
 pip install python-osc
@@ -22,7 +22,12 @@ cd color
 python osc_demo_color_recieve.py
 ```
 
-### logistic
+# logistic
+### python requirements
+```sh
+pip install python-osc
+```
+
 ### 送信
 送信と受信のtermnalは分けてください．
 ```sh
