@@ -21,7 +21,7 @@ python osc_demo_color.py
 ### 受信
 OSCで受信して，RGBを表示する．
 ```sh
-cd color
+cd ./osc_demo/color
 python osc_demo_color_recieve.py
 ```
 
@@ -40,6 +40,6 @@ python osc_demo_send.py
 ### 受信
 OSCで受信して，送られてきたパラメーターをprintする．
 ```sh
-cd logistic
+cd ./osc_demo/logistic
 python osc_demo_recieve.py
 ```
