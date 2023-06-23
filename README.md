@@ -27,11 +27,11 @@ python osc_demo_color_recieve.py
 送信と受信のtermnalは分けてください．
 ```sh
 cd logistic
-python osc_demo_color.py
+python osc_demo_send.py
 ```
 ### 受信
 OSCで受信して，送られてきたパラメーターをprintする．
 ```sh
 cd logistic
-python osc_demo_color_recieve.py
+python osc_demo_recieve.py
 ```
