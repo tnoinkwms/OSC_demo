@@ -1,7 +1,7 @@
 # OSC_demo
 初年次ゼミで使用したpython-oscのデモコード
 ```sh
-git clone https://github.com/tnoinkwms/OSC_demo
+git clone https://github.com/tnoinkwms/OSC_demo.git
 ```
 
 # RGB
