@@ -15,13 +15,13 @@ pip install threading
 ### 送信
 送信と受信のtermnalは分けてください．
 ```sh
-cd ./osc_demo/color
+cd ./color
 python osc_demo_color.py
 ```
 ### 受信
 OSCで受信して，RGBを表示する．
 ```sh
-cd ./osc_demo/color
+cd ./color
 python osc_demo_color_recieve.py
 ```
 
@@ -34,12 +34,12 @@ pip install python-osc
 ### 送信
 送信と受信のtermnalは分けてください．
 ```sh
-cd ./osc_demo/logistic
+cd ./logistic
 python osc_demo_send.py
 ```
 ### 受信
 OSCで受信して，送られてきたパラメーターをprintする．
 ```sh
-cd ./osc_demo/logistic
+cd ./logistic
 python osc_demo_recieve.py
 ```

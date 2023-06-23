@@ -2,7 +2,7 @@ from pythonosc import udp_client
 from pythonosc.osc_message_builder import OscMessageBuilder
 import time
 IP = '10.249.30.241'
-PORT = 10000
+PORT = 12345
 
 def logistic_map(r, x):
     return r * x * (1 - x)

@@ -9,7 +9,7 @@ disp = dispatcher.Dispatcher()
 disp.map("/logistic", print_handler)
 
 ip = "127.0.0.1"
-port = 8000
+port = 12345
 
 server = BlockingOSCUDPServer((ip, port), disp)  # Use 'disp' here instead of 'dispatcher'
 server.serve_forever()  # Blocks forever

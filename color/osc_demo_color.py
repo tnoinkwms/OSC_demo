@@ -3,7 +3,7 @@ from pythonosc.osc_message_builder import OscMessageBuilder
 import random
 
 IP = '127.0.0.1'
-PORT = 100
+PORT = 12345
 
 client = udp_client.UDPClient(IP, PORT)
 

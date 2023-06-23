@@ -24,7 +24,7 @@ class OSCServerThread(Thread):
         return self.latest_rgb
 
 # Start OSC server in a new thread.
-osc_thread = OSCServerThread("127.0.0.1", 100)
+osc_thread = OSCServerThread("127.0.0.1", 12345)
 osc_thread.start()
 
 # Initialize plot.
