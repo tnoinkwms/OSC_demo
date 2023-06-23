@@ -15,7 +15,7 @@ pip install threading
 ### 送信
 送信と受信のtermnalは分けてください．
 ```sh
-cd color
+cd ./osc_demo/color
 python osc_demo_color.py
 ```
 ### 受信
@@ -34,7 +34,7 @@ pip install python-osc
 ### 送信
 送信と受信のtermnalは分けてください．
 ```sh
-cd logistic
+cd ./osc_demo/logistic
 python osc_demo_send.py
 ```
 ### 受信
