@@ -9,7 +9,6 @@ git clone https://github.com/tnoinkwms/OSC_demo.git
 ```sh
 pip install python-osc
 pip install matplotlib
-pip install threading
 ```
 
 ### 送信
